@@ -12,6 +12,7 @@
 		841EADB01DE45BE000045B47 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 841EADAE1DE45BE000045B47 /* Main.storyboard */; };
 		841EADB21DE45BE000045B47 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 841EADB11DE45BE000045B47 /* Assets.xcassets */; };
 		841EADB51DE45BE000045B47 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 841EADB31DE45BE000045B47 /* LaunchScreen.storyboard */; };
+		84A5D5011DE49EB400E4A8D9 /* sensorButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A5D5001DE49EB400E4A8D9 /* sensorButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		841EADB11DE45BE000045B47 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		841EADB41DE45BE000045B47 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		841EADB61DE45BE000045B47 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84A5D5001DE49EB400E4A8D9 /* sensorButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = sensorButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,8 @@
 		841EADA91DE45BE000045B47 /* Senses2Go */ = {
 			isa = PBXGroup;
 			children = (
+				84A5D5021DE4AA5800E4A8D9 /* Main */,
+				84A5D4FE1DE49DC300E4A8D9 /* Model */,
 				841EADAA1DE45BE000045B47 /* AppDelegate.swift */,
 				841EADAC1DE45BE000045B47 /* ViewController.swift */,
 				841EADAE1DE45BE000045B47 /* Main.storyboard */,
@@ -62,6 +66,37 @@
 				841EADB61DE45BE000045B47 /* Info.plist */,
 			);
 			path = Senses2Go;
+			sourceTree = "<group>";
+		};
+		84A5D4FE1DE49DC300E4A8D9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				84A5D4FF1DE49DD500E4A8D9 /* Interface */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		84A5D4FF1DE49DD500E4A8D9 /* Interface */ = {
+			isa = PBXGroup;
+			children = (
+				84A5D5001DE49EB400E4A8D9 /* sensorButton.swift */,
+			);
+			name = Interface;
+			sourceTree = "<group>";
+		};
+		84A5D5021DE4AA5800E4A8D9 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				84A5D5031DE4AA6C00E4A8D9 /* Src */,
+			);
+			name = Main;
+			sourceTree = "<group>";
+		};
+		84A5D5031DE4AA6C00E4A8D9 /* Src */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Src;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -92,7 +127,7 @@
 			attributes = {
 				LastSwiftUpdateCheck = 0810;
 				LastUpgradeCheck = 0810;
-				ORGANIZATIONNAME = Adesso;
+				ORGANIZATIONNAME = "Tom Wieschalla";
 				TargetAttributes = {
 					841EADA61DE45BDF00045B47 = {
 						CreatedOnToolsVersion = 8.1;
@@ -137,6 +172,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84A5D5011DE49EB400E4A8D9 /* sensorButton.swift in Sources */,
 				841EADAD1DE45BE000045B47 /* ViewController.swift in Sources */,
 				841EADAB1DE45BE000045B47 /* AppDelegate.swift in Sources */,
 			);
@@ -300,6 +336,7 @@
 				841EADBB1DE45BE000045B47 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
