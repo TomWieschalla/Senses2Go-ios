@@ -8,22 +8,28 @@
 
 /* Begin PBXBuildFile section */
 		841EADAB1DE45BE000045B47 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841EADAA1DE45BE000045B47 /* AppDelegate.swift */; };
-		841EADAD1DE45BE000045B47 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841EADAC1DE45BE000045B47 /* ViewController.swift */; };
+		841EADAD1DE45BE000045B47 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841EADAC1DE45BE000045B47 /* MainViewController.swift */; };
 		841EADB01DE45BE000045B47 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 841EADAE1DE45BE000045B47 /* Main.storyboard */; };
 		841EADB21DE45BE000045B47 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 841EADB11DE45BE000045B47 /* Assets.xcassets */; };
 		841EADB51DE45BE000045B47 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 841EADB31DE45BE000045B47 /* LaunchScreen.storyboard */; };
-		84A5D5011DE49EB400E4A8D9 /* sensorButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A5D5001DE49EB400E4A8D9 /* sensorButton.swift */; };
+		8481ACA91DE5C40400CF059B /* StageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8481ACA81DE5C40400CF059B /* StageViewController.swift */; };
+		8481ACAC1DE5D53C00CF059B /* GPSViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8481ACAA1DE5D53C00CF059B /* GPSViewController.swift */; };
+		8481ACAD1DE5D53C00CF059B /* GPSViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8481ACAB1DE5D53C00CF059B /* GPSViewController.xib */; };
+		84A5D5011DE49EB400E4A8D9 /* SensorButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A5D5001DE49EB400E4A8D9 /* SensorButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		841EADA71DE45BE000045B47 /* Senses2Go.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Senses2Go.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		841EADAA1DE45BE000045B47 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		841EADAC1DE45BE000045B47 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		841EADAC1DE45BE000045B47 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		841EADAF1DE45BE000045B47 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		841EADB11DE45BE000045B47 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		841EADB41DE45BE000045B47 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		841EADB61DE45BE000045B47 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		84A5D5001DE49EB400E4A8D9 /* sensorButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = sensorButton.swift; sourceTree = "<group>"; };
+		8481ACA81DE5C40400CF059B /* StageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StageViewController.swift; sourceTree = "<group>"; };
+		8481ACAA1DE5D53C00CF059B /* GPSViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GPSViewController.swift; sourceTree = "<group>"; };
+		8481ACAB1DE5D53C00CF059B /* GPSViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GPSViewController.xib; sourceTree = "<group>"; };
+		84A5D5001DE49EB400E4A8D9 /* SensorButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SensorButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,14 +64,21 @@
 			children = (
 				84A5D5021DE4AA5800E4A8D9 /* Main */,
 				84A5D4FE1DE49DC300E4A8D9 /* Model */,
-				841EADAA1DE45BE000045B47 /* AppDelegate.swift */,
-				841EADAC1DE45BE000045B47 /* ViewController.swift */,
 				841EADAE1DE45BE000045B47 /* Main.storyboard */,
+				841EADAA1DE45BE000045B47 /* AppDelegate.swift */,
 				841EADB11DE45BE000045B47 /* Assets.xcassets */,
 				841EADB31DE45BE000045B47 /* LaunchScreen.storyboard */,
 				841EADB61DE45BE000045B47 /* Info.plist */,
 			);
 			path = Senses2Go;
+			sourceTree = "<group>";
+		};
+		8481ACA11DE5947500CF059B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				8481ACAB1DE5D53C00CF059B /* GPSViewController.xib */,
+			);
+			name = Views;
 			sourceTree = "<group>";
 		};
 		84A5D4FE1DE49DC300E4A8D9 /* Model */ = {
@@ -79,7 +92,7 @@
 		84A5D4FF1DE49DD500E4A8D9 /* Interface */ = {
 			isa = PBXGroup;
 			children = (
-				84A5D5001DE49EB400E4A8D9 /* sensorButton.swift */,
+				84A5D5001DE49EB400E4A8D9 /* SensorButton.swift */,
 			);
 			name = Interface;
 			sourceTree = "<group>";
@@ -87,6 +100,7 @@
 		84A5D5021DE4AA5800E4A8D9 /* Main */ = {
 			isa = PBXGroup;
 			children = (
+				8481ACA11DE5947500CF059B /* Views */,
 				84A5D5031DE4AA6C00E4A8D9 /* Src */,
 			);
 			name = Main;
@@ -95,6 +109,9 @@
 		84A5D5031DE4AA6C00E4A8D9 /* Src */ = {
 			isa = PBXGroup;
 			children = (
+				841EADAC1DE45BE000045B47 /* MainViewController.swift */,
+				8481ACA81DE5C40400CF059B /* StageViewController.swift */,
+				8481ACAA1DE5D53C00CF059B /* GPSViewController.swift */,
 			);
 			name = Src;
 			sourceTree = "<group>";
@@ -162,6 +179,7 @@
 				841EADB51DE45BE000045B47 /* LaunchScreen.storyboard in Resources */,
 				841EADB21DE45BE000045B47 /* Assets.xcassets in Resources */,
 				841EADB01DE45BE000045B47 /* Main.storyboard in Resources */,
+				8481ACAD1DE5D53C00CF059B /* GPSViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -172,8 +190,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				84A5D5011DE49EB400E4A8D9 /* sensorButton.swift in Sources */,
-				841EADAD1DE45BE000045B47 /* ViewController.swift in Sources */,
+				84A5D5011DE49EB400E4A8D9 /* SensorButton.swift in Sources */,
+				8481ACA91DE5C40400CF059B /* StageViewController.swift in Sources */,
+				8481ACAC1DE5D53C00CF059B /* GPSViewController.swift in Sources */,
+				841EADAD1DE45BE000045B47 /* MainViewController.swift in Sources */,
 				841EADAB1DE45BE000045B47 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -8,19 +8,20 @@
 
 import UIKit
 
-public class sensorButton: UIButton {
+public class SensorButton: UIButton {
     
     required public init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
-        
         self.layer.cornerRadius = 20;
-        
+    }
+    
+    public func startAnimation() {
         let transformAnim  = CAKeyframeAnimation(keyPath:"transform")
         transformAnim.values  = [NSValue(caTransform3D: CATransform3DMakeRotation(0.04, 0.0, 0.0, 1.0)),NSValue(caTransform3D: CATransform3DMakeRotation(-0.04 , 0, 0, 1))]
         transformAnim.autoreverses = true
         transformAnim.duration = 0.1
         transformAnim.repeatCount = Float.infinity
         self.layer.add(transformAnim, forKey: "transform")
-        
     }
+    
 }
