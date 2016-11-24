@@ -21,128 +21,150 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="560"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" alpha="0.44999998807907104" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Pji-NY-LhQ" customClass="SensorButton" customModule="Senses2Go" customModuleProvider="target">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Pji-NY-LhQ" customClass="SensorButton" customModule="Senses2Go" customModuleProvider="target">
                                 <rect key="frame" x="120" y="137" width="80" height="80"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.0" green="0.053191871230165055" blue="0.60818801795580113" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                                <color key="tintColor" red="0.0" green="0.05319187123" blue="0.608188018" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="Magnetometer">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" red="0.0" green="0.06795241531" blue="0.81092455109999995" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
                                     <action selector="magnoButtonClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="pd1-0p-wSX"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" alpha="0.44999998807907104" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SaE-Yk-iRb" customClass="SensorButton" customModule="Senses2Go" customModuleProvider="target">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SaE-Yk-iRb" customClass="SensorButton" customModule="Senses2Go" customModuleProvider="target">
                                 <rect key="frame" x="20" y="71" width="80" height="80"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.0" green="0.053191871230165055" blue="0.60818801795580113" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <color key="tintColor" red="0.0" green="0.05319187123" blue="0.608188018" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="GPS">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" red="0.0" green="0.06795241531" blue="0.81092455109999995" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
                                     <action selector="gpsButtonClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Szk-wU-iB2"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" alpha="0.44999998807907104" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MH2-0x-N7f" customClass="SensorButton" customModule="Senses2Go" customModuleProvider="target">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MH2-0x-N7f" customClass="SensorButton" customModule="Senses2Go" customModuleProvider="target">
                                 <rect key="frame" x="220" y="71" width="80" height="80"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.0" green="0.053191871230165055" blue="0.60818801795580113" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="tintColor" red="0.0" green="0.05319187123" blue="0.608188018" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="Gyroskop">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" red="0.0" green="0.06795241531" blue="0.81092455109999995" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
                                     <action selector="gyroskopButtonClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Ah2-gM-1aM"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" alpha="0.44999998807907104" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bGM-wq-2ri" customClass="SensorButton" customModule="Senses2Go" customModuleProvider="target">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bGM-wq-2ri" customClass="SensorButton" customModule="Senses2Go" customModuleProvider="target">
                                 <rect key="frame" x="20" y="206" width="80" height="80"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.0" green="0.053191871230165055" blue="0.60818801795580113" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                                <color key="tintColor" red="0.0" green="0.05319187123" blue="0.608188018" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="Beschleunigung">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" red="0.0" green="0.06795241531" blue="0.81092455109999995" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
                                     <action selector="beschButtonClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="JUp-bg-7yd"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" alpha="0.44999998807907104" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aFk-oH-VJw" customClass="SensorButton" customModule="Senses2Go" customModuleProvider="target">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aFk-oH-VJw" customClass="SensorButton" customModule="Senses2Go" customModuleProvider="target">
                                 <rect key="frame" x="220" y="206" width="80" height="80"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.0" green="0.053191871230165055" blue="0.60818801795580113" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="tintColor" red="0.0" green="0.05319187123" blue="0.608188018" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="Proximity">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" red="0.0" green="0.06795241531" blue="0.81092455109999995" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
                                     <action selector="proxButtonClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="gfm-Zh-4du"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" alpha="0.44999998807907104" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9BD-1b-jts" customClass="SensorButton" customModule="Senses2Go" customModuleProvider="target">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9BD-1b-jts" customClass="SensorButton" customModule="Senses2Go" customModuleProvider="target">
                                 <rect key="frame" x="220" y="349" width="80" height="80"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.0" green="0.053191871230165055" blue="0.60818801795580113" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                                <color key="tintColor" red="0.0" green="0.05319187123" blue="0.608188018" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="Lichtintensität">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" red="0.0" green="0.06795241531" blue="0.81092455109999995" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
                                     <action selector="lichtButtonClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="lMW-Dz-nR2"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" alpha="0.44999998807907104" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Pq3-h5-nz2" customClass="SensorButton" customModule="Senses2Go" customModuleProvider="target">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Pq3-h5-nz2" customClass="SensorButton" customModule="Senses2Go" customModuleProvider="target">
                                 <rect key="frame" x="120" y="277" width="80" height="80"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.0" green="0.053191871230165055" blue="0.60818801795580113" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                                <color key="tintColor" red="0.0" green="0.05319187123" blue="0.608188018" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="Luftfeuchtigkeit">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" red="0.0" green="0.06795241531" blue="0.81092455109999995" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
                                     <action selector="feuchtButtonClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="1CB-Ba-2NU"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" alpha="0.44999998807907104" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6CD-gK-pbi" customClass="SensorButton" customModule="Senses2Go" customModuleProvider="target">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6CD-gK-pbi" customClass="SensorButton" customModule="Senses2Go" customModuleProvider="target">
                                 <rect key="frame" x="20" y="349" width="80" height="80"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.0" green="0.053191871230165055" blue="0.60818801795580113" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="tintColor" red="0.0" green="0.05319187123" blue="0.608188018" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="Luftdruck">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" red="0.0" green="0.06795241531" blue="0.81092455109999995" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
                                     <action selector="druckButtonClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ZFp-mf-GJ6"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" alpha="0.44999998807907104" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gHT-gn-hFo" customClass="SensorButton" customModule="Senses2Go" customModuleProvider="target">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gHT-gn-hFo" customClass="SensorButton" customModule="Senses2Go" customModuleProvider="target">
                                 <rect key="frame" x="120" y="410" width="80" height="80"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.0" green="0.053191871230165055" blue="0.60818801795580113" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="tintColor" red="0.0" green="0.05319187123" blue="0.608188018" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="Kamera">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" red="0.0" green="0.06795241531" blue="0.81092455109999995" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
                                     <action selector="kameraButtonClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Qb2-Mz-APA"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" alpha="0.44999998807907104" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rxi-yy-DvE" customClass="SensorButton" customModule="Senses2Go" customModuleProvider="target">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rxi-yy-DvE" customClass="SensorButton" customModule="Senses2Go" customModuleProvider="target">
                                 <rect key="frame" x="20" y="475" width="80" height="80"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.0" green="0.053191871230165055" blue="0.60818801795580113" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <color key="tintColor" red="0.0" green="0.05319187123" blue="0.608188018" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="Lautsprecher">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" red="0.0" green="0.06795241531" blue="0.81092455109999995" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
                                     <action selector="lautsprecherButtonClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="tnQ-DT-9qP"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" alpha="0.44999998807907104" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6S4-c3-vch" customClass="SensorButton" customModule="Senses2Go" customModuleProvider="target">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6S4-c3-vch" customClass="SensorButton" customModule="Senses2Go" customModuleProvider="target">
                                 <rect key="frame" x="220" y="475" width="80" height="80"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.0" green="0.053191871230165055" blue="0.60818801795580113" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="tintColor" red="0.0" green="0.05319187123" blue="0.608188018" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="Mikrofon">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" red="0.0" green="0.06795241531" blue="0.81092455109999995" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
                                     <action selector="mikrofonButtonClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="SaU-8y-zdB"/>

@@ -48,10 +48,14 @@ class MainViewController: UIViewController {
         self.navigationController?.pushViewController(vc, animated: true)
     }
     @IBAction func gyroskopButtonClicked(_ sender: Any) {
+        let vc  = GyroskopViewController.init(nibName: "GyroskopViewController", bundle: nil)
+        self.navigationController?.pushViewController(vc, animated: true)
     }
     @IBAction func magnoButtonClicked(_ sender: Any) {
     }
     @IBAction func beschButtonClicked(_ sender: Any) {
+        let vc  = AccelerometerViewController.init(nibName: "AccelerometerViewController", bundle: nil)
+        self.navigationController?.pushViewController(vc, animated: true)
     }
     @IBAction func proxButtonClicked(_ sender: Any) {
     }

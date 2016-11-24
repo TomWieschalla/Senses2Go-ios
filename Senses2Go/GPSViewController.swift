@@ -10,20 +10,12 @@ import UIKit
 import MapKit
 import CoreLocation
 
-class GPSViewController: StageViewController, CLLocationManagerDelegate {
+class GPSViewController: UIViewController, CLLocationManagerDelegate {
     
     @IBOutlet weak var positionMapView: MKMapView!
     @IBOutlet weak var breitengradTextView: UITextField!
     @IBOutlet weak var laengengradTextView: UITextField!
     let locationManager = CLLocationManager()
-    
-    required init(nibName nibNameOrNil: String?, bundle nibBundleOrNil: Bundle?) {
-        super.init(nibName: nibNameOrNil, bundle: nibBundleOrNil)
-    }
-    
-    required init?(coder aDecoder: NSCoder) {
-        fatalError("init(coder:) has not been implemented")
-    }
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -45,8 +37,8 @@ class GPSViewController: StageViewController, CLLocationManagerDelegate {
         let lati = manager.location?.coordinate.latitude
         let longi = manager.location?.coordinate.longitude
         
-        breitengradTextView.text = "\(lati)"
-        laengengradTextView.text = "\(longi)"
+        breitengradTextView.text = "\(lati!)"
+        laengengradTextView.text = "\(longi!)"
         let center = CLLocationCoordinate2D(latitude: (manager.location?.coordinate.latitude)!, longitude: (manager.location?.coordinate.longitude)!)
         let region = MKCoordinateRegion(center: center, span: MKCoordinateSpan(latitudeDelta: 0.01, longitudeDelta: 0.01))
         

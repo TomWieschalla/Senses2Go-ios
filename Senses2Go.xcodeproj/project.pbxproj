@@ -12,9 +12,12 @@
 		841EADB01DE45BE000045B47 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 841EADAE1DE45BE000045B47 /* Main.storyboard */; };
 		841EADB21DE45BE000045B47 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 841EADB11DE45BE000045B47 /* Assets.xcassets */; };
 		841EADB51DE45BE000045B47 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 841EADB31DE45BE000045B47 /* LaunchScreen.storyboard */; };
-		8481ACA91DE5C40400CF059B /* StageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8481ACA81DE5C40400CF059B /* StageViewController.swift */; };
 		8481ACAC1DE5D53C00CF059B /* GPSViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8481ACAA1DE5D53C00CF059B /* GPSViewController.swift */; };
 		8481ACAD1DE5D53C00CF059B /* GPSViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8481ACAB1DE5D53C00CF059B /* GPSViewController.xib */; };
+		849040541DE6EACF00F8F6C2 /* GyroskopViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849040521DE6EACF00F8F6C2 /* GyroskopViewController.swift */; };
+		849040551DE6EACF00F8F6C2 /* GyroskopViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 849040531DE6EACF00F8F6C2 /* GyroskopViewController.xib */; };
+		849040581DE70DB100F8F6C2 /* AccelerometerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849040561DE70DB100F8F6C2 /* AccelerometerViewController.swift */; };
+		849040591DE70DB100F8F6C2 /* AccelerometerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 849040571DE70DB100F8F6C2 /* AccelerometerViewController.xib */; };
 		84A5D5011DE49EB400E4A8D9 /* SensorButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A5D5001DE49EB400E4A8D9 /* SensorButton.swift */; };
 /* End PBXBuildFile section */
 
@@ -26,9 +29,12 @@
 		841EADB11DE45BE000045B47 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		841EADB41DE45BE000045B47 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		841EADB61DE45BE000045B47 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8481ACA81DE5C40400CF059B /* StageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StageViewController.swift; sourceTree = "<group>"; };
 		8481ACAA1DE5D53C00CF059B /* GPSViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GPSViewController.swift; sourceTree = "<group>"; };
 		8481ACAB1DE5D53C00CF059B /* GPSViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GPSViewController.xib; sourceTree = "<group>"; };
+		849040521DE6EACF00F8F6C2 /* GyroskopViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GyroskopViewController.swift; sourceTree = "<group>"; };
+		849040531DE6EACF00F8F6C2 /* GyroskopViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GyroskopViewController.xib; sourceTree = "<group>"; };
+		849040561DE70DB100F8F6C2 /* AccelerometerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccelerometerViewController.swift; sourceTree = "<group>"; };
+		849040571DE70DB100F8F6C2 /* AccelerometerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AccelerometerViewController.xib; sourceTree = "<group>"; };
 		84A5D5001DE49EB400E4A8D9 /* SensorButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SensorButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -76,7 +82,9 @@
 		8481ACA11DE5947500CF059B /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				849040571DE70DB100F8F6C2 /* AccelerometerViewController.xib */,
 				8481ACAB1DE5D53C00CF059B /* GPSViewController.xib */,
+				849040531DE6EACF00F8F6C2 /* GyroskopViewController.xib */,
 			);
 			name = Views;
 			sourceTree = "<group>";
@@ -110,8 +118,9 @@
 			isa = PBXGroup;
 			children = (
 				841EADAC1DE45BE000045B47 /* MainViewController.swift */,
-				8481ACA81DE5C40400CF059B /* StageViewController.swift */,
 				8481ACAA1DE5D53C00CF059B /* GPSViewController.swift */,
+				849040521DE6EACF00F8F6C2 /* GyroskopViewController.swift */,
+				849040561DE70DB100F8F6C2 /* AccelerometerViewController.swift */,
 			);
 			name = Src;
 			sourceTree = "<group>";
@@ -179,6 +188,8 @@
 				841EADB51DE45BE000045B47 /* LaunchScreen.storyboard in Resources */,
 				841EADB21DE45BE000045B47 /* Assets.xcassets in Resources */,
 				841EADB01DE45BE000045B47 /* Main.storyboard in Resources */,
+				849040551DE6EACF00F8F6C2 /* GyroskopViewController.xib in Resources */,
+				849040591DE70DB100F8F6C2 /* AccelerometerViewController.xib in Resources */,
 				8481ACAD1DE5D53C00CF059B /* GPSViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -190,8 +201,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				849040541DE6EACF00F8F6C2 /* GyroskopViewController.swift in Sources */,
 				84A5D5011DE49EB400E4A8D9 /* SensorButton.swift in Sources */,
-				8481ACA91DE5C40400CF059B /* StageViewController.swift in Sources */,
+				849040581DE70DB100F8F6C2 /* AccelerometerViewController.swift in Sources */,
 				8481ACAC1DE5D53C00CF059B /* GPSViewController.swift in Sources */,
 				841EADAD1DE45BE000045B47 /* MainViewController.swift in Sources */,
 				841EADAB1DE45BE000045B47 /* AppDelegate.swift in Sources */,
