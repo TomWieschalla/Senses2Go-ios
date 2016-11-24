@@ -26,6 +26,8 @@
 		849040691DE722CC00F8F6C2 /* AirMoistureViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 849040671DE722CC00F8F6C2 /* AirMoistureViewController.xib */; };
 		8490406C1DE725AC00F8F6C2 /* AirPressureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8490406A1DE725AC00F8F6C2 /* AirPressureViewController.swift */; };
 		8490406D1DE725AC00F8F6C2 /* AirPressureViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8490406B1DE725AC00F8F6C2 /* AirPressureViewController.xib */; };
+		849040701DE72F0900F8F6C2 /* LightViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8490406E1DE72F0900F8F6C2 /* LightViewController.swift */; };
+		849040711DE72F0900F8F6C2 /* LightViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8490406F1DE72F0900F8F6C2 /* LightViewController.xib */; };
 		84A5D5011DE49EB400E4A8D9 /* SensorButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A5D5001DE49EB400E4A8D9 /* SensorButton.swift */; };
 /* End PBXBuildFile section */
 
@@ -51,6 +53,8 @@
 		849040671DE722CC00F8F6C2 /* AirMoistureViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AirMoistureViewController.xib; sourceTree = "<group>"; };
 		8490406A1DE725AC00F8F6C2 /* AirPressureViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AirPressureViewController.swift; sourceTree = "<group>"; };
 		8490406B1DE725AC00F8F6C2 /* AirPressureViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AirPressureViewController.xib; sourceTree = "<group>"; };
+		8490406E1DE72F0900F8F6C2 /* LightViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LightViewController.swift; sourceTree = "<group>"; };
+		8490406F1DE72F0900F8F6C2 /* LightViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LightViewController.xib; sourceTree = "<group>"; };
 		84A5D5001DE49EB400E4A8D9 /* SensorButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SensorButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -98,6 +102,7 @@
 		8481ACA11DE5947500CF059B /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				8490406F1DE72F0900F8F6C2 /* LightViewController.xib */,
 				8490406B1DE725AC00F8F6C2 /* AirPressureViewController.xib */,
 				849040671DE722CC00F8F6C2 /* AirMoistureViewController.xib */,
 				8490405B1DE7120A00F8F6C2 /* MagnetometerViewController.xib */,
@@ -145,6 +150,7 @@
 				8490405E1DE714E200F8F6C2 /* ProximityViewController.swift */,
 				849040661DE722CC00F8F6C2 /* AirMoistureViewController.swift */,
 				8490406A1DE725AC00F8F6C2 /* AirPressureViewController.swift */,
+				8490406E1DE72F0900F8F6C2 /* LightViewController.swift */,
 			);
 			name = Src;
 			sourceTree = "<group>";
@@ -214,6 +220,7 @@
 				841EADB21DE45BE000045B47 /* Assets.xcassets in Resources */,
 				841EADB01DE45BE000045B47 /* Main.storyboard in Resources */,
 				849040691DE722CC00F8F6C2 /* AirMoistureViewController.xib in Resources */,
+				849040711DE72F0900F8F6C2 /* LightViewController.xib in Resources */,
 				849040551DE6EACF00F8F6C2 /* GyroskopViewController.xib in Resources */,
 				8490406D1DE725AC00F8F6C2 /* AirPressureViewController.xib in Resources */,
 				8490405D1DE7120A00F8F6C2 /* MagnetometerViewController.xib in Resources */,
@@ -238,6 +245,7 @@
 				841EADAD1DE45BE000045B47 /* MainViewController.swift in Sources */,
 				8490405C1DE7120A00F8F6C2 /* MagnetometerViewController.swift in Sources */,
 				841EADAB1DE45BE000045B47 /* AppDelegate.swift in Sources */,
+				849040701DE72F0900F8F6C2 /* LightViewController.swift in Sources */,
 				849040681DE722CC00F8F6C2 /* AirMoistureViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

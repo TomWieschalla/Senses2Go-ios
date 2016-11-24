@@ -69,9 +69,13 @@ class MainViewController: UIViewController {
     }
     
     @IBAction func druckButtonClicked(_ sender: Any) {
+        let vc  = AirPressureViewController.init(nibName: "AirPressureViewController", bundle: nil)
+        self.navigationController?.pushViewController(vc, animated: true)
     }
     
     @IBAction func lichtButtonClicked(_ sender: Any) {
+        let vc  = LightViewController.init(nibName: "LightViewController", bundle: nil)
+        self.navigationController?.pushViewController(vc, animated: true)
     }
     
     @IBAction func kameraButtonClicked(_ sender: Any) {
