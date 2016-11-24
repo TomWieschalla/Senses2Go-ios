@@ -31,11 +31,6 @@ class MainViewController: UIViewController {
     override func viewWillAppear(_ animated: Bool) {
         startButtonAnimation(buttons: [mikButton,lautsprecherButton,kameraButton,lichtButton,druckButton,feuchtButton,proxButton,beschButton,magnButton,gyroButton,gpsButton])
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
     
     func startButtonAnimation(buttons: [SensorButton]) {
         for button in buttons {
@@ -47,28 +42,44 @@ class MainViewController: UIViewController {
         let vc  = GPSViewController.init(nibName: "GPSViewController", bundle: nil)
         self.navigationController?.pushViewController(vc, animated: true)
     }
+    
     @IBAction func gyroskopButtonClicked(_ sender: Any) {
         let vc  = GyroskopViewController.init(nibName: "GyroskopViewController", bundle: nil)
         self.navigationController?.pushViewController(vc, animated: true)
     }
+    
     @IBAction func magnoButtonClicked(_ sender: Any) {
+        let vc  = MagnetometerViewController.init(nibName: "MagnetometerViewController", bundle: nil)
+        self.navigationController?.pushViewController(vc, animated: true)
     }
+    
     @IBAction func beschButtonClicked(_ sender: Any) {
         let vc  = AccelerometerViewController.init(nibName: "AccelerometerViewController", bundle: nil)
         self.navigationController?.pushViewController(vc, animated: true)
     }
+    
     @IBAction func proxButtonClicked(_ sender: Any) {
+        let vc  = ProximityViewController.init(nibName: "ProximityViewController", bundle: nil)
+        self.navigationController?.pushViewController(vc, animated: true)
     }
+    
     @IBAction func feuchtButtonClicked(_ sender: Any) {
+        let vc  = AirMoistureViewController.init(nibName: "AirMoistureViewController", bundle: nil)
+        self.navigationController?.pushViewController(vc, animated: true)
     }
+    
     @IBAction func druckButtonClicked(_ sender: Any) {
     }
+    
     @IBAction func lichtButtonClicked(_ sender: Any) {
     }
+    
     @IBAction func kameraButtonClicked(_ sender: Any) {
     }
+    
     @IBAction func lautsprecherButtonClicked(_ sender: Any) {
     }
+    
     @IBAction func mikrofonButtonClicked(_ sender: Any) {
     }
 }

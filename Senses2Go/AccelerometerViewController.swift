@@ -28,7 +28,7 @@ class AccelerometerViewController: UIViewController {
             self.setAccelerometerData(accData: accData!)
             
             if (error != nil) {
-                print("error while reading gyro data: \(error)")
+                print("error while reading acceleration data: \(error)")
             }
         })
     }

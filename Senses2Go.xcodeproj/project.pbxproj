@@ -18,6 +18,14 @@
 		849040551DE6EACF00F8F6C2 /* GyroskopViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 849040531DE6EACF00F8F6C2 /* GyroskopViewController.xib */; };
 		849040581DE70DB100F8F6C2 /* AccelerometerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849040561DE70DB100F8F6C2 /* AccelerometerViewController.swift */; };
 		849040591DE70DB100F8F6C2 /* AccelerometerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 849040571DE70DB100F8F6C2 /* AccelerometerViewController.xib */; };
+		8490405C1DE7120A00F8F6C2 /* MagnetometerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8490405A1DE7120A00F8F6C2 /* MagnetometerViewController.swift */; };
+		8490405D1DE7120A00F8F6C2 /* MagnetometerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8490405B1DE7120A00F8F6C2 /* MagnetometerViewController.xib */; };
+		849040601DE714E200F8F6C2 /* ProximityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8490405E1DE714E200F8F6C2 /* ProximityViewController.swift */; };
+		849040611DE714E200F8F6C2 /* ProximityViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8490405F1DE714E200F8F6C2 /* ProximityViewController.xib */; };
+		849040681DE722CC00F8F6C2 /* AirMoistureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849040661DE722CC00F8F6C2 /* AirMoistureViewController.swift */; };
+		849040691DE722CC00F8F6C2 /* AirMoistureViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 849040671DE722CC00F8F6C2 /* AirMoistureViewController.xib */; };
+		8490406C1DE725AC00F8F6C2 /* AirPressureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8490406A1DE725AC00F8F6C2 /* AirPressureViewController.swift */; };
+		8490406D1DE725AC00F8F6C2 /* AirPressureViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8490406B1DE725AC00F8F6C2 /* AirPressureViewController.xib */; };
 		84A5D5011DE49EB400E4A8D9 /* SensorButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A5D5001DE49EB400E4A8D9 /* SensorButton.swift */; };
 /* End PBXBuildFile section */
 
@@ -35,6 +43,14 @@
 		849040531DE6EACF00F8F6C2 /* GyroskopViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GyroskopViewController.xib; sourceTree = "<group>"; };
 		849040561DE70DB100F8F6C2 /* AccelerometerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccelerometerViewController.swift; sourceTree = "<group>"; };
 		849040571DE70DB100F8F6C2 /* AccelerometerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AccelerometerViewController.xib; sourceTree = "<group>"; };
+		8490405A1DE7120A00F8F6C2 /* MagnetometerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MagnetometerViewController.swift; sourceTree = "<group>"; };
+		8490405B1DE7120A00F8F6C2 /* MagnetometerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MagnetometerViewController.xib; sourceTree = "<group>"; };
+		8490405E1DE714E200F8F6C2 /* ProximityViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProximityViewController.swift; sourceTree = "<group>"; };
+		8490405F1DE714E200F8F6C2 /* ProximityViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ProximityViewController.xib; sourceTree = "<group>"; };
+		849040661DE722CC00F8F6C2 /* AirMoistureViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AirMoistureViewController.swift; sourceTree = "<group>"; };
+		849040671DE722CC00F8F6C2 /* AirMoistureViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AirMoistureViewController.xib; sourceTree = "<group>"; };
+		8490406A1DE725AC00F8F6C2 /* AirPressureViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AirPressureViewController.swift; sourceTree = "<group>"; };
+		8490406B1DE725AC00F8F6C2 /* AirPressureViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AirPressureViewController.xib; sourceTree = "<group>"; };
 		84A5D5001DE49EB400E4A8D9 /* SensorButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SensorButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -82,9 +98,13 @@
 		8481ACA11DE5947500CF059B /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				8490406B1DE725AC00F8F6C2 /* AirPressureViewController.xib */,
+				849040671DE722CC00F8F6C2 /* AirMoistureViewController.xib */,
+				8490405B1DE7120A00F8F6C2 /* MagnetometerViewController.xib */,
 				849040571DE70DB100F8F6C2 /* AccelerometerViewController.xib */,
 				8481ACAB1DE5D53C00CF059B /* GPSViewController.xib */,
 				849040531DE6EACF00F8F6C2 /* GyroskopViewController.xib */,
+				8490405F1DE714E200F8F6C2 /* ProximityViewController.xib */,
 			);
 			name = Views;
 			sourceTree = "<group>";
@@ -121,6 +141,10 @@
 				8481ACAA1DE5D53C00CF059B /* GPSViewController.swift */,
 				849040521DE6EACF00F8F6C2 /* GyroskopViewController.swift */,
 				849040561DE70DB100F8F6C2 /* AccelerometerViewController.swift */,
+				8490405A1DE7120A00F8F6C2 /* MagnetometerViewController.swift */,
+				8490405E1DE714E200F8F6C2 /* ProximityViewController.swift */,
+				849040661DE722CC00F8F6C2 /* AirMoistureViewController.swift */,
+				8490406A1DE725AC00F8F6C2 /* AirPressureViewController.swift */,
 			);
 			name = Src;
 			sourceTree = "<group>";
@@ -185,10 +209,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				849040611DE714E200F8F6C2 /* ProximityViewController.xib in Resources */,
 				841EADB51DE45BE000045B47 /* LaunchScreen.storyboard in Resources */,
 				841EADB21DE45BE000045B47 /* Assets.xcassets in Resources */,
 				841EADB01DE45BE000045B47 /* Main.storyboard in Resources */,
+				849040691DE722CC00F8F6C2 /* AirMoistureViewController.xib in Resources */,
 				849040551DE6EACF00F8F6C2 /* GyroskopViewController.xib in Resources */,
+				8490406D1DE725AC00F8F6C2 /* AirPressureViewController.xib in Resources */,
+				8490405D1DE7120A00F8F6C2 /* MagnetometerViewController.xib in Resources */,
 				849040591DE70DB100F8F6C2 /* AccelerometerViewController.xib in Resources */,
 				8481ACAD1DE5D53C00CF059B /* GPSViewController.xib in Resources */,
 			);
@@ -205,8 +233,12 @@
 				84A5D5011DE49EB400E4A8D9 /* SensorButton.swift in Sources */,
 				849040581DE70DB100F8F6C2 /* AccelerometerViewController.swift in Sources */,
 				8481ACAC1DE5D53C00CF059B /* GPSViewController.swift in Sources */,
+				8490406C1DE725AC00F8F6C2 /* AirPressureViewController.swift in Sources */,
+				849040601DE714E200F8F6C2 /* ProximityViewController.swift in Sources */,
 				841EADAD1DE45BE000045B47 /* MainViewController.swift in Sources */,
+				8490405C1DE7120A00F8F6C2 /* MagnetometerViewController.swift in Sources */,
 				841EADAB1DE45BE000045B47 /* AppDelegate.swift in Sources */,
+				849040681DE722CC00F8F6C2 /* AirMoistureViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
