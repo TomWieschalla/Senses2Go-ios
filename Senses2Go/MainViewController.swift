@@ -79,12 +79,18 @@ class MainViewController: UIViewController {
     }
     
     @IBAction func kameraButtonClicked(_ sender: Any) {
+        let vc  = CameraViewController.init(nibName: "CameraViewController", bundle: nil)
+        self.navigationController?.pushViewController(vc, animated: true)
     }
     
     @IBAction func lautsprecherButtonClicked(_ sender: Any) {
+        let vc  = SoundViewController.init(nibName: "SoundViewController", bundle: nil)
+        self.navigationController?.pushViewController(vc, animated: true)
     }
     
     @IBAction func mikrofonButtonClicked(_ sender: Any) {
+        let vc  = MicroViewController.init(nibName: "MicroViewController", bundle: nil)
+        self.navigationController?.pushViewController(vc, animated: true)
     }
 }
 

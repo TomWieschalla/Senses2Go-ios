@@ -12,6 +12,13 @@
 		841EADB01DE45BE000045B47 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 841EADAE1DE45BE000045B47 /* Main.storyboard */; };
 		841EADB21DE45BE000045B47 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 841EADB11DE45BE000045B47 /* Assets.xcassets */; };
 		841EADB51DE45BE000045B47 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 841EADB31DE45BE000045B47 /* LaunchScreen.storyboard */; };
+		8481A9161DE8314900708A57 /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8481A9141DE8314900708A57 /* CameraViewController.swift */; };
+		8481A9171DE8314900708A57 /* CameraViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8481A9151DE8314900708A57 /* CameraViewController.xib */; };
+		8481A91A1DE8397600708A57 /* SoundViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8481A9181DE8397600708A57 /* SoundViewController.swift */; };
+		8481A91B1DE8397600708A57 /* SoundViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8481A9191DE8397600708A57 /* SoundViewController.xib */; };
+		8481A91F1DE83C1100708A57 /* guitar.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8481A91E1DE83C1100708A57 /* guitar.mp3 */; };
+		8481A9221DE844B100708A57 /* MicroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8481A9201DE844B100708A57 /* MicroViewController.swift */; };
+		8481A9231DE844B100708A57 /* MicroViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8481A9211DE844B100708A57 /* MicroViewController.xib */; };
 		8481ACAC1DE5D53C00CF059B /* GPSViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8481ACAA1DE5D53C00CF059B /* GPSViewController.swift */; };
 		8481ACAD1DE5D53C00CF059B /* GPSViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8481ACAB1DE5D53C00CF059B /* GPSViewController.xib */; };
 		849040541DE6EACF00F8F6C2 /* GyroskopViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849040521DE6EACF00F8F6C2 /* GyroskopViewController.swift */; };
@@ -39,6 +46,13 @@
 		841EADB11DE45BE000045B47 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		841EADB41DE45BE000045B47 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		841EADB61DE45BE000045B47 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8481A9141DE8314900708A57 /* CameraViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
+		8481A9151DE8314900708A57 /* CameraViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CameraViewController.xib; sourceTree = "<group>"; };
+		8481A9181DE8397600708A57 /* SoundViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SoundViewController.swift; sourceTree = "<group>"; };
+		8481A9191DE8397600708A57 /* SoundViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SoundViewController.xib; sourceTree = "<group>"; };
+		8481A91E1DE83C1100708A57 /* guitar.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = guitar.mp3; sourceTree = "<group>"; };
+		8481A9201DE844B100708A57 /* MicroViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MicroViewController.swift; sourceTree = "<group>"; };
+		8481A9211DE844B100708A57 /* MicroViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MicroViewController.xib; sourceTree = "<group>"; };
 		8481ACAA1DE5D53C00CF059B /* GPSViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GPSViewController.swift; sourceTree = "<group>"; };
 		8481ACAB1DE5D53C00CF059B /* GPSViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GPSViewController.xib; sourceTree = "<group>"; };
 		849040521DE6EACF00F8F6C2 /* GyroskopViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GyroskopViewController.swift; sourceTree = "<group>"; };
@@ -88,20 +102,40 @@
 		841EADA91DE45BE000045B47 /* Senses2Go */ = {
 			isa = PBXGroup;
 			children = (
+				8481A91C1DE83BF200708A57 /* Resources */,
 				84A5D5021DE4AA5800E4A8D9 /* Main */,
 				84A5D4FE1DE49DC300E4A8D9 /* Model */,
 				841EADAE1DE45BE000045B47 /* Main.storyboard */,
 				841EADAA1DE45BE000045B47 /* AppDelegate.swift */,
-				841EADB11DE45BE000045B47 /* Assets.xcassets */,
 				841EADB31DE45BE000045B47 /* LaunchScreen.storyboard */,
 				841EADB61DE45BE000045B47 /* Info.plist */,
 			);
 			path = Senses2Go;
 			sourceTree = "<group>";
 		};
+		8481A91C1DE83BF200708A57 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8481A91D1DE83BFF00708A57 /* music */,
+				841EADB11DE45BE000045B47 /* Assets.xcassets */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		8481A91D1DE83BFF00708A57 /* music */ = {
+			isa = PBXGroup;
+			children = (
+				8481A91E1DE83C1100708A57 /* guitar.mp3 */,
+			);
+			name = music;
+			sourceTree = "<group>";
+		};
 		8481ACA11DE5947500CF059B /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				8481A9211DE844B100708A57 /* MicroViewController.xib */,
+				8481A9191DE8397600708A57 /* SoundViewController.xib */,
+				8481A9151DE8314900708A57 /* CameraViewController.xib */,
 				8490406F1DE72F0900F8F6C2 /* LightViewController.xib */,
 				8490406B1DE725AC00F8F6C2 /* AirPressureViewController.xib */,
 				849040671DE722CC00F8F6C2 /* AirMoistureViewController.xib */,
@@ -151,6 +185,9 @@
 				849040661DE722CC00F8F6C2 /* AirMoistureViewController.swift */,
 				8490406A1DE725AC00F8F6C2 /* AirPressureViewController.swift */,
 				8490406E1DE72F0900F8F6C2 /* LightViewController.swift */,
+				8481A9141DE8314900708A57 /* CameraViewController.swift */,
+				8481A9181DE8397600708A57 /* SoundViewController.swift */,
+				8481A9201DE844B100708A57 /* MicroViewController.swift */,
 			);
 			name = Src;
 			sourceTree = "<group>";
@@ -220,10 +257,14 @@
 				841EADB21DE45BE000045B47 /* Assets.xcassets in Resources */,
 				841EADB01DE45BE000045B47 /* Main.storyboard in Resources */,
 				849040691DE722CC00F8F6C2 /* AirMoistureViewController.xib in Resources */,
+				8481A91F1DE83C1100708A57 /* guitar.mp3 in Resources */,
 				849040711DE72F0900F8F6C2 /* LightViewController.xib in Resources */,
 				849040551DE6EACF00F8F6C2 /* GyroskopViewController.xib in Resources */,
 				8490406D1DE725AC00F8F6C2 /* AirPressureViewController.xib in Resources */,
 				8490405D1DE7120A00F8F6C2 /* MagnetometerViewController.xib in Resources */,
+				8481A9231DE844B100708A57 /* MicroViewController.xib in Resources */,
+				8481A9171DE8314900708A57 /* CameraViewController.xib in Resources */,
+				8481A91B1DE8397600708A57 /* SoundViewController.xib in Resources */,
 				849040591DE70DB100F8F6C2 /* AccelerometerViewController.xib in Resources */,
 				8481ACAD1DE5D53C00CF059B /* GPSViewController.xib in Resources */,
 			);
@@ -239,12 +280,15 @@
 				849040541DE6EACF00F8F6C2 /* GyroskopViewController.swift in Sources */,
 				84A5D5011DE49EB400E4A8D9 /* SensorButton.swift in Sources */,
 				849040581DE70DB100F8F6C2 /* AccelerometerViewController.swift in Sources */,
+				8481A9221DE844B100708A57 /* MicroViewController.swift in Sources */,
 				8481ACAC1DE5D53C00CF059B /* GPSViewController.swift in Sources */,
 				8490406C1DE725AC00F8F6C2 /* AirPressureViewController.swift in Sources */,
+				8481A9161DE8314900708A57 /* CameraViewController.swift in Sources */,
 				849040601DE714E200F8F6C2 /* ProximityViewController.swift in Sources */,
 				841EADAD1DE45BE000045B47 /* MainViewController.swift in Sources */,
 				8490405C1DE7120A00F8F6C2 /* MagnetometerViewController.swift in Sources */,
 				841EADAB1DE45BE000045B47 /* AppDelegate.swift in Sources */,
+				8481A91A1DE8397600708A57 /* SoundViewController.swift in Sources */,
 				849040701DE72F0900F8F6C2 /* LightViewController.swift in Sources */,
 				849040681DE722CC00F8F6C2 /* AirMoistureViewController.swift in Sources */,
 			);

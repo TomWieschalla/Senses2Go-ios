@@ -32,5 +32,10 @@ class ProximityViewController: UIViewController {
             }
         }
     }
+    
+    override func viewWillDisappear(_ animated: Bool) {
+        let device = UIDevice.current
+        device.isProximityMonitoringEnabled = false
+    }
 
 }
