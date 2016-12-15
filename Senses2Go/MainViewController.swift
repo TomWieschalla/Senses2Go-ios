@@ -15,7 +15,6 @@ class MainViewController: UIViewController {
     @IBOutlet weak var kameraButton: SensorButton!
     @IBOutlet weak var lichtButton: SensorButton!
     @IBOutlet weak var druckButton: SensorButton!
-    @IBOutlet weak var feuchtButton: SensorButton!
     @IBOutlet weak var proxButton: SensorButton!
     @IBOutlet weak var beschButton: SensorButton!
     @IBOutlet weak var magnButton: SensorButton!
@@ -26,16 +25,6 @@ class MainViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         self.title = "Wähle einen Sensor..."
-    }
-    
-    override func viewWillAppear(_ animated: Bool) {
-        startButtonAnimation(buttons: [mikButton,lautsprecherButton,kameraButton,lichtButton,druckButton,feuchtButton,proxButton,beschButton,magnButton,gyroButton,gpsButton])
-    }
-    
-    func startButtonAnimation(buttons: [SensorButton]) {
-        for button in buttons {
-            button.startAnimation()
-        }
     }
 
     @IBAction func gpsButtonClicked(_ sender: Any) {
@@ -60,11 +49,6 @@ class MainViewController: UIViewController {
     
     @IBAction func proxButtonClicked(_ sender: Any) {
         let vc  = ProximityViewController.init(nibName: "ProximityViewController", bundle: nil)
-        self.navigationController?.pushViewController(vc, animated: true)
-    }
-    
-    @IBAction func feuchtButtonClicked(_ sender: Any) {
-        let vc  = AirMoistureViewController.init(nibName: "AirMoistureViewController", bundle: nil)
         self.navigationController?.pushViewController(vc, animated: true)
     }
     
