@@ -103,20 +103,6 @@
                                     <action selector="lichtButtonClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="lMW-Dz-nR2"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Pq3-h5-nz2" customClass="SensorButton" customModule="Senses2Go" customModuleProvider="target">
-                                <rect key="frame" x="120" y="277" width="80" height="80"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.0" green="0.053191871230165055" blue="0.60818801795580113" alpha="1" colorSpace="calibratedRGB"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="10"/>
-                                <color key="tintColor" red="0.0" green="0.05319187123" blue="0.608188018" alpha="1" colorSpace="calibratedRGB"/>
-                                <state key="normal" title="Luftfeuchtigkeit">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                    <color key="titleShadowColor" red="0.0" green="0.06795241531" blue="0.81092455109999995" alpha="1" colorSpace="calibratedRGB"/>
-                                </state>
-                                <connections>
-                                    <action selector="feuchtButtonClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="1CB-Ba-2NU"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6CD-gK-pbi" customClass="SensorButton" customModule="Senses2Go" customModuleProvider="target">
                                 <rect key="frame" x="20" y="349" width="80" height="80"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -181,7 +167,6 @@
                     <connections>
                         <outlet property="beschButton" destination="bGM-wq-2ri" id="iGG-r9-sc8"/>
                         <outlet property="druckButton" destination="6CD-gK-pbi" id="nbm-nY-la7"/>
-                        <outlet property="feuchtButton" destination="Pq3-h5-nz2" id="kSY-LY-bnI"/>
                         <outlet property="gpsButton" destination="SaE-Yk-iRb" id="3c0-kG-fY4"/>
                         <outlet property="gyroButton" destination="MH2-0x-N7f" id="BMw-yS-eRd"/>
                         <outlet property="kameraButton" destination="gHT-gn-hFo" id="Gnv-DJ-5eo"/>
